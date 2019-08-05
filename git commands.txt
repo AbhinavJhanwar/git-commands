@@ -1,22 +1,22 @@
 
 1) Clone a repository:               git clone  <repository URL>
 
-2) Switching between Branch:    	 git checkout <branch name>
+2) Switching between Branch:   	     git checkout <branch name>
 
 3) Creating a new Branch:            git checkout -b <branch name> or git branch <branch name>
 
 4) Fetch latest from repo:           git fetch origin
 
 5) Merge latest from repo:           go to master branch--> git checkout master
-				                     git merge <branch name>
-				                     git merge --no-ff --no-commit <branch name> 
+				     git merge <branch name>
+				     git merge --no-ff --no-commit <branch name> 
                                      (If conflict is encountered, we can run git status to check details about the conflicts and try to solve)
 
-6) Delete a branch:		             git branch -d <branch name>
+6) Delete a branch:		     git branch -d <branch name>
 
 7) Stag your changes:                git add . (or you can specify a specific file)
 
-8) Unstage your changes:		     git reset <file name>
+8) Unstage your changes: 	     git reset <file name>
 
 9) Commit your changes:              git commit -m "msg"
 
@@ -24,17 +24,17 @@
 
 11) Push your changes:               git push -u origin <branch name> or git push
 
-12) Pull others changes:		     git pull origin <branch name>
+12) Pull others changes:	     git pull origin <branch name>
 
-13) Check out changes:		         git diff HEAD
+13) Check out changes:		     git diff HEAD
 
-14) To see staged changes:		     git diff --staged
+14) To see staged changes:	     git diff --staged
 
-15) removing a file:		         git rm <file Name>
+15) removing a file:		     git rm <file Name>
 
 16) checking current branch:	     git branch
 
-17) check url:			             git remote -v
+17) check url:			     git remote -v
 
-18) check status:			         git status
+18) check status:		     git status
 
